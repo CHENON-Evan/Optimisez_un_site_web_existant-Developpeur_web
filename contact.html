@@ -3,7 +3,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="Agence La Panthère est une entreprise de webdesign à Lyon qui aide les entreprises a développer leur image et leur branding sur internet.">
+	<meta name="description"
+		content="Agence La Panthère est une entreprise de webdesign à Lyon qui aide les entreprises a développer leur image et leur branding sur internet.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="img/favicon.jpg">
 
@@ -57,7 +58,8 @@
 		<!-- bloc-0 END -->
 		<main>
 			<!-- bloc-6 -->
-			<section class="bg-banniere bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper"
+			<section
+				class="bg-banniere bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper"
 				id="bloc-6">
 				<div class="container bloc-lg">
 					<div class="row">
@@ -83,28 +85,20 @@
 							<form id="form_1" novalidate data-success-msg="Your message has been sent."
 								data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 								<div class="form-group">
-									<label>
-										Nom
-									</label>
-									<input id="name" class="form-control" required />
+									<label for="NomInput" class="form-label">Nom</label>
+									<input type="text" id="NomInput" class="form-control" required>
 								</div>
 								<div class="form-group">
-									<label>
-										Adresse email
-									</label>
-									<input id="email" class="form-control" type="email" required />
+									<label for="MailInput" class="form-label">Adresse mail</label>
+									<input type="text" id="MailInput" class="form-control" required>
 								</div>
 								<div class="form-group">
-									<label>
-										Comment nous avez-vous connu ?
-									</label>
-									<input class="form-control" type="email" required id="input_504" />
+									<label for="QuestionInput" class="form-label">Comment nous avez-vous connu ?</label>
+									<input type="text" id="QuestionInput" class="form-control" required>
 								</div>
 								<div class="form-group">
-									<label>
-										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-									</label><textarea id="message" class="form-control" rows="4" cols="50"
-										required></textarea>
+									<label for="MessageInput" class="form-label">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+									<textarea type="text" id="MessageInput" class="form-control" rows="4" cols="50" required></textarea>
 								</div>
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 									type="submit">
